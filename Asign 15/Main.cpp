@@ -32,7 +32,7 @@ char character(char start, int offset)
         {
             throw Invalid_Range_Exception(); //Throw
         }
-        else if ((output >= 65 && output <= 90 * startChar >= 95 && startChar <= 122) || (output >= 95 && output <= 122 && startChar >= 65 && startChar <= 90))
+        else if ((output >= 65 && output <= 90 && startChar >= 95 && startChar <= 122) || (output >= 95 && output <= 122 && startChar >= 65 && startChar <= 90))
         {
             throw Invalid_Case_Exception(); //Throw
         }
