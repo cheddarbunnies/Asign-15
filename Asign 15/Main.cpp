@@ -1,3 +1,9 @@
+/*
+Taylor Jones
+21.FA.CIS.1202.502
+12/05/2021
+*/
+
 #include <iostream>
 using namespace std;
 
